@@ -8,7 +8,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
-    <project groups="imagebuilder" name="meta-image-builder" path="rdke/common/meta-image-support" remote="rdke" revision="feature/rpi-open-platform-integration">
+    <project groups="imagebuilder" name="meta-stacklayer-ipk" path="rdke/common/meta-stacklayer-ipk" remote="rdke" revision="refs/tags/1.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
     </project>
 
