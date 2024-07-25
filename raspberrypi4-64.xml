@@ -4,7 +4,7 @@
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
     <remote fetch="https://code.rdkcentral.com/r/a/" name="cmf" review="https://code.rdkcentral.com/r/a/" />
 
-    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/2.0.4">
+    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/2.0.5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
@@ -32,11 +32,11 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
     </project>
 
-    <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="feature/RDK-50635-Fix-broken-dev-dependency-pkg-config" >
+    <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="refs/tags/v1.0.5" >
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
 
-    <project groups="layers" name="meta-foundation-release" path="rdke/foundation/meta-foundation-release" remote="rdke" revision="refs/tags/2.0.4">
+    <project groups="layers" name="meta-foundation-release" path="rdke/foundation/meta-foundation-release" remote="rdke" revision="6ae33c7db14739693c924bb388b09c61eb5950a5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_FOUNDATION_RELEASE"/>
     </project>
 
@@ -44,12 +44,12 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.4">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.6">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
 
-    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral" revision="refs/tags/1.2.1">
+    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral" revision="refs/tags/1.2.2">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 
