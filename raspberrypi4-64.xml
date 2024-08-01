@@ -8,7 +8,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
-    <project groups="imagebuilder" name="meta-image-builder" path="rdke/common/meta-image-support" remote="rdke" revision="feature/rpi-open-platform-integration">
+    <project groups="imagebuilder" name="meta-image-builder" path="rdke/common/meta-image-support" remote="rdke" revision="refs/tags/3.0.3">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
     </project>
 
@@ -44,7 +44,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.6">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.7">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
@@ -53,7 +53,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 
-    <project groups="layers" name="meta-application-release-generic" path="rdke/application/meta-application-release" remote="rdkcentral" revision="develop">
+    <project groups="layers" name="meta-application-release-generic" path="rdke/application/meta-application-release" remote="rdkcentral" revision="refs/tags/1.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
 
