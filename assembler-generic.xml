@@ -55,7 +55,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
 
-    <project groups="imageassembler" name="meta-image-assembler-generic" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="refs/tags/1.0.0">
+    <project groups="imageassembler" name="meta-image-assembler-generic" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="feature/RDKVREFPLT-3164-assembler-layer-update">
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
