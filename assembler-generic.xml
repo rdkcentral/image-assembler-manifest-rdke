@@ -17,11 +17,11 @@
     </project>
 
     <!-- RDKVREFPLT-3302: remove when meta-aux is having the complete generic bbclasses -->
-    <project groups="imagebuilder" name="meta-image-support" path="rdke/common/meta-image-support" remote="rdke" revision="58b65b8221739b4c8b7cf65992f4d8056f3e2a06">
+    <project groups="imagebuilder" name="meta-image-support" path="rdke/common/meta-image-support" remote="rdke" revision="refs/tags/4.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
     </project>
 
-    <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdke" revision="662760eb84e9ebff13781938fe0f815595cd164b">
+    <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdke" revision="refs/tags/4.2.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_CONFIG"/>
     </project>
 
