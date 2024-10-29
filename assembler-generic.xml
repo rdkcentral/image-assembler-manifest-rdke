@@ -50,11 +50,11 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-release-generic" path="rdke/application/meta-application-release" remote="rdkcentral" revision="feature/kirkstone-community-platforms">
+    <project groups="layers" name="meta-application-release-generic" path="rdke/application/meta-application-release" remote="leenaS-d" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
 
-    <project groups="imageassembler" name="meta-image-assembler-generic" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="feature/kirkstone-community-platforms">
+    <project groups="imageassembler" name="meta-image-assembler-generic" path="rdke/image-assembler/meta-rdk-images" remote="leenaS-d" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
