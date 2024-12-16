@@ -9,7 +9,6 @@
     </project>
 
     <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="refs/tags/4.1.1">
-        <!-- RDKVREFPLT-3302: Replace with meta-aux layer matching MANIFEST_EXPORT_PATH when its is available -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
     </project>
 
