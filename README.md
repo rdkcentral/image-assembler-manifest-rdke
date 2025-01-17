@@ -5,7 +5,7 @@ Manifest to build RDKE image assembler builds
 Note: use latest `TAG` for released versions or `develop` branch for develop HEAD.
 ```bash
 # Initialize the repository
-repo init -u https://github.com/rdkcentral/rdke-assembler-manifest-generic.git -m raspberrypi4-64.xml -b develop
+repo init -u https://github.com/rdkcentral/image-assembler-manifest-rdke.git -m raspberrypi4-64.xml -b develop
 
 # Synchronize the repository
 repo sync --no-clone-bundle --no-tags
