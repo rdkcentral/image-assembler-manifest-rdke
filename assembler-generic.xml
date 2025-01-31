@@ -49,7 +49,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
 
-    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="refs/tags/4.0.2">
+    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="cda735cec4abecf89eb524b424a22c33d48c2a58">
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
