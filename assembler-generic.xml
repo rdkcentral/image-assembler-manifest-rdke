@@ -41,15 +41,15 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
 
-    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="109751e8a78d598e0eaec80060c80b761b899f0e">
+    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="refs/tags/2.4.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-release" path="rdke/application/meta-application-release" remote="rdkcentral" revision="refs/tags/4.0.2">
+    <project groups="layers" name="meta-application-rdke-release" path="rdke/application/meta-application-release" remote="rdkcentral" revision="refs/tags/4.0.3">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
 
-    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="refs/tags/4.0.2">
+    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="refs/tags/4.0.3">
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
