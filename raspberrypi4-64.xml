@@ -6,12 +6,12 @@
     <include name="assembler-generic.xml"/>
 
     <!-- Platform specific release layers -->
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral" revision="refs/tags/4.0.4">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral" revision="e344744c6dfcc49318c2911b4fdee34a305121a5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
 
-    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-raspberrypi-release" remote="rdkcentral" revision="refs/tags/4.0.4">
+    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-raspberrypi-release" remote="rdkcentral" revision="49b8846a7af85be676e83b19d714324cf11d201e">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 </manifest>
