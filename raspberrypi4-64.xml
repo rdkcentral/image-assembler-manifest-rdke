@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <yocto version="kirkstone" />
-    <remote fetch="https://github.com/rdkcentral" name="rdkcentral-platform" review="https://github.com/rdkcentral"/>
+    <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
     <!-- Include the assembler-generic.xml submanifest -->
     <include name="assembler-generic.xml"/>
 
