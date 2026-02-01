@@ -33,13 +33,13 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.4.1" >
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
-    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/8.4.4.0">
+    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="feature/RDKMVE-1637">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
-    <project groups="layers" name="meta-application-rdke-release" path="rdke/application/meta-application-release" remote="rdkcentral" revision="refs/tags/5.1.0">
+    <project groups="layers" name="meta-application-rdke-release" path="rdke/application/meta-application-release" remote="rdkcentral" revision="develop">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_APPLICATION_RELEASE"/>
     </project>
-    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="refs/tags/4.1.4">
+    <project groups="imageassembler" name="meta-image-assembler-rdke" path="rdke/image-assembler/meta-rdk-images" remote="rdkcentral" revision="develop">
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
