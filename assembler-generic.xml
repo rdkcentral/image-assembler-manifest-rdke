@@ -24,10 +24,10 @@
     <project groups="extention" name="meta-oss-common-config" path="rdke/configs/ext" remote="rdkcentral" revision="refs/tags/1.4.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_EXT"/>
     </project>
-    <project groups="oe" name="meta-openembedded" path="rdke/common/meta-openembedded" remote="rdkcentral" revision="refs/tags/rdk-4.0.0" >
+    <project groups="oe" name="meta-openembedded" path="rdke/common/meta-openembedded" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
     </project>
-    <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.6.0" >
+    <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.6.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
     <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/8.5.2.1">
