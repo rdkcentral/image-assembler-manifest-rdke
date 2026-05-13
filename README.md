@@ -27,10 +27,10 @@ rdke/vendor/meta-vendor-release/conf/machine/include/vendor.inc
 Set the feed path (example):
 ```
 # Configure Vendor IPK's path
-VENDOR_IPK_SERVER_PATH = "file://${HOME}/ipks/raspberrypi4-64-rdke-vendor/<Vendor-IPK-Version>/ipk/"
+VENDOR_IPK_SERVER_PATH = "file://<path_to_ipks>/raspberrypi4-64-rdke-vendor/<VENDOR_IPK_VERSION>/ipk/"
 
 # Configure Vendor OSS IPK's path
-VENDOR_OSS_IPK_SERVER_PATH = "file://${HOME}/ipks/rdk-arm64-oss-vendor/<Vendor-Oss-IPK-Version>/ipk/"
+VENDOR_OSS_IPK_SERVER_PATH = "file://<path_to_ipks>/rdk-arm64-oss-vendor/raspberrypi4-64-rdke-vendor/<VENDOR_IPK_VERSION>/ipk/"
 ```
 ### Configure MW and MW-OSS IPK Feed
 
@@ -42,10 +42,10 @@ rdke/middleware/meta-middleware-release/conf/machine/include/middleware.inc
 Set the feed path (example):
 ```
 # Configure MW IPK's path
-MW_IPK_SERVER_PATH = "file://${HOME}/ipks/raspberrypi4-64-rdke-middleware/<MW-IPK-Version>/ipk/"
+MW_IPK_SERVER_PATH = "file://<path_to_ipks>/raspberrypi4-64-rdke-middleware/<MIDDLEWARE_IPK_VERSION>/ipk/"
 
 # Configure MW OSS IPK's path
-MW_OSS_IPK_SERVER_PATH = "file://${HOME}/ipks/rdk-arm64-oss-vendor/<MW-Oss-IPK-Version>/ipk/"
+MW_OSS_IPK_SERVER_PATH = "file://<path_to_ipks>/rdk-arm64-oss-middleware/raspberrypi4-64-rdke-middleware/<MIDDLEWARE_IPK_VERSION>/ipk/"
 ```
 ---
 
