@@ -37,4 +37,7 @@
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_RDK_IMAGES"/>
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
+    <project groups="imagebuilder" name="meta-image-support" path="rdke/common/meta-image-support" remote="rdkcentral" revision="refs/tags/1.0.0">
+        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
+    </project>
 </manifest>
